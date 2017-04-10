@@ -1,0 +1,7 @@
+all: libiast.a iast
+
+libiast.a:
+	cd ../../ && make
+
+iast: iast.cpp ../../libiast.a
+	g++ iast.cpp -o iast -std=c++11 -L ../../ -l iast -I ../../

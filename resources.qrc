@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/splash.png</file>
+        <file>images/question.png</file>
+        <file>images/splash.gif</file>
+        <file>images/Logo4.png</file>
+        <file>images/aboutLogo.png</file>
+        <file>images/IAST.png</file>
+        <file>images/Modeler.png</file>
+        <file>skins/dark_monokai/DarkMonokai.qss</file>
+        <file>images/cogwheel.png</file>
+        <file>images/plotter.png</file>
+        <file>images/generator.png</file>
+        <file>images/folder.png</file>
+        <file>images/save.png</file>
+        <file>images/calculator.png</file>
+        <file>images/add_folder.png</file>
+        <file>images/reload.png</file>
+        <file>images/plus.png</file>
+        <file>images/minus.png</file>
+        <file>images/Home_ListLogo.png</file>
+        <file>images/IAST_ListLogo.png</file>
+        <file>images/Modeler_ListLogo.png</file>
+    </qresource>
+</RCC>

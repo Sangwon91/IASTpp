@@ -1,0 +1,376 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Any	any.hpp	/^class Any$/;"	c
+Any	any_impl.hpp	/^Any::Any() : mData {nullptr}$/;"	f	class:Any
+Any	any_impl.hpp	/^Any::Any(const Any& other) :$/;"	f	class:Any
+Any	any_impl.hpp	/^Any::Any(const T& value) :$/;"	f	class:Any
+AnyData	any.hpp	/^class Any::AnyData : public DataType$/;"	c	class:Any
+AnyData	any_impl.hpp	/^Any::AnyData<ValueType>::AnyData(const ValueType& value) : mValue {value}$/;"	f	class:Any::AnyData
+AnyException	any.hpp	/^class AnyException : std::exception$/;"	c
+ArmaSolver	arma_solver.cpp	/^ArmaSolver::ArmaSolver() :$/;"	f	class:ArmaSolver
+ArmaSolver	arma_solver.hpp	/^class ArmaSolver : public Solver$/;"	c
+BetIsotherm	bet_isotherm.cpp	/^BetIsotherm::BetIsotherm(double _q, double _k1, double _k2) :$/;"	f	class:BetIsotherm
+BetIsotherm	bet_isotherm.hpp	/^class BetIsotherm : public Isotherm$/;"	c
+BisectionSolver	bisection_solver.cpp	/^BisectionSolver::BisectionSolver() :$/;"	f	class:BisectionSolver
+BisectionSolver	bisection_solver.hpp	/^class BisectionSolver : public Solver$/;"	c
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -O3 -std=c++11 -W -Wall -Werror$/;"	m
+CXXFLAGS	test/utility/Makefile	/^CXXFLAGS = -std=c++1z -O3 -fconcepts$/;"	m
+DEBUG	root_finder_impl.hpp	11;"	d
+DEBUG	root_finder_impl.hpp	333;"	d
+DEBUG	root_finder_impl.hpp	6;"	d
+DataType	any.hpp	/^class Any::DataType$/;"	c	class:Any
+DslIsotherm	dsl_isotherm.cpp	/^DslIsotherm::DslIsotherm(double q1, double k1, double q2, double k2) :$/;"	f	class:DslIsotherm
+DslIsotherm	dsl_isotherm.hpp	/^class DslIsotherm : public Isotherm$/;"	c
+DslfIsotherm	dslf_isotherm.cpp	/^DslfIsotherm::DslfIsotherm(double q1, double k1, double n1,$/;"	f	class:DslfIsotherm
+DslfIsotherm	dslf_isotherm.hpp	/^class DslfIsotherm : public Isotherm$/;"	c
+FIX_NX	iast_core.hpp	/^    enum Mode {FIX_PY, FIX_PX, FIX_NX};$/;"	e	enum:Iast::Mode
+FIX_PX	iast_core.hpp	/^    enum Mode {FIX_PY, FIX_PX, FIX_NX};$/;"	e	enum:Iast::Mode
+FIX_PY	iast_core.hpp	/^    enum Mode {FIX_PY, FIX_PX, FIX_NX};$/;"	e	enum:Iast::Mode
+G	test/any/test.cpp	/^class G$/;"	c	file:
+HenryIsotherm	henry_isotherm.cpp	/^HenryIsotherm::HenryIsotherm(double k) :$/;"	f	class:HenryIsotherm
+HenryIsotherm	henry_isotherm.hpp	/^class HenryIsotherm : public Isotherm$/;"	c
+Iast	iast_core.hpp	/^class Iast$/;"	c
+IastException	iast_exception.cpp	/^IastException::IastException($/;"	f	class:IastException
+IastException	iast_exception.hpp	/^class IastException : public std::exception$/;"	c
+Interpolator	interpolator.hpp	/^class Interpolator$/;"	c
+InterpolatorIsotherm	interpolator_isotherm.cpp	/^InterpolatorIsotherm::InterpolatorIsotherm(const std::vector<double>& x,$/;"	f	class:InterpolatorIsotherm
+InterpolatorIsotherm	interpolator_isotherm.hpp	/^class InterpolatorIsotherm : public Isotherm$/;"	c
+Isotherm	isotherm.hpp	/^class Isotherm$/;"	c
+IsothermException	isotherm_exception.cpp	/^IsothermException::IsothermException($/;"	f	class:IsothermException
+IsothermException	isotherm_exception.hpp	/^class IsothermException : public std::exception$/;"	c
+IsothermFactory	isotherm_factory.cpp	/^IsothermFactory::IsothermFactory()$/;"	f	class:IsothermFactory
+IsothermFactory	isotherm_factory.hpp	/^class IsothermFactory$/;"	c
+IsothermModeler	isotherm_utility.cpp	/^IsothermModeler::IsothermModeler() : mError {0.0}$/;"	f	class:IsothermModeler
+ItemIsotherm	item_isotherm.cpp	/^ItemIsotherm::ItemIsotherm(IsothermPtr isotherm,$/;"	f	class:ItemIsotherm
+ItemIsotherm	item_isotherm.hpp	/^class ItemIsotherm : public Isotherm$/;"	c
+LangmuirIsotherm	langmuir_isotherm.cpp	/^LangmuirIsotherm::LangmuirIsotherm(double q, double k) :$/;"	f	class:LangmuirIsotherm
+LangmuirIsotherm	langmuir_isotherm.hpp	/^class LangmuirIsotherm : public Isotherm$/;"	c
+LfIsotherm	lf_isotherm.cpp	/^LfIsotherm::LfIsotherm(double q, double k, double n) :$/;"	f	class:LfIsotherm
+LfIsotherm	lf_isotherm.hpp	/^class LfIsotherm : public Isotherm$/;"	c
+LinearInterpolator	linear_interpolator.hpp	/^class LinearInterpolator : public Interpolator$/;"	c
+Minimizer	minimizer.hpp	/^class Minimizer$/;"	c
+MinimizerException	minimizer_exception.cpp	/^MinimizerException::MinimizerException($/;"	f	class:MinimizerException
+MinimizerException	minimizer_exception.hpp	/^class MinimizerException : public std::exception$/;"	c
+Mode	iast_core.hpp	/^    enum Mode {FIX_PY, FIX_PX, FIX_NX};$/;"	g	class:Iast
+NoRootException	solver_exception.hpp	/^class NoRootException : public SolverException$/;"	c
+OBJS	Makefile	/^OBJS = $(patsubst arma_solver.%, , $(OBJS_ALL)) # remove arma solver. we don't need it.$/;"	m
+OBJS_ALL	Makefile	/^OBJS_ALL = $(SRCS:.cpp=.o)$/;"	m
+PURE	any_impl.hpp	61;"	d
+PURE	any_impl.hpp	70;"	d
+QuadraticIsotherm	quadratic_isotherm.cpp	/^QuadraticIsotherm::QuadraticIsotherm(double _q, double _k1, double _k2) :$/;"	f	class:QuadraticIsotherm
+QuadraticIsotherm	quadratic_isotherm.hpp	/^class QuadraticIsotherm : public Isotherm$/;"	c
+ROOTPATH	test/arma_solver/Makefile	/^ROOTPATH=..\/..\/$/;"	m
+SRCS	Makefile	/^SRCS = $(wildcard *.cpp)$/;"	m
+Simplex	simplex.cpp	/^Simplex::Simplex() :$/;"	f	class:Simplex
+Simplex	simplex.hpp	/^class Simplex : public Minimizer$/;"	c
+SimplexSolver	simplex_solver.cpp	/^SimplexSolver::SimplexSolver() :$/;"	f	class:SimplexSolver
+SimplexSolver	simplex_solver.hpp	/^class SimplexSolver : public Solver$/;"	c
+Solver	solver.hpp	/^class Solver$/;"	c
+SolverException	solver_exception.cpp	/^SolverException::SolverException($/;"	f	class:SolverException
+SolverException	solver_exception.hpp	/^class SolverException : public std::exception$/;"	c
+SolverFactory	solver_factory.hpp	/^class SolverFactory$/;"	c
+TARGET	Makefile	/^TARGET = libiast.a$/;"	m
+add_eqn	root_finder_impl.hpp	/^root_finder::add_eqn(func_t equation)$/;"	f	class:root_finder
+at	linear_interpolator.cpp	/^LinearInterpolator::at(double x) const$/;"	f	class:LinearInterpolator
+autofit	isotherm_utility.cpp	/^IsothermModeler::autofit(const std::vector<double>& x,$/;"	f	class:IsothermModeler
+calculate	iast_core.cpp	/^Iast::calculate(int mode, ValueType pOrN, std::vector<ValueType> composition)$/;"	f	class:Iast
+center	simplex.cpp	/^Simplex::center()$/;"	f	class:Simplex
+check	simplex.cpp	/^Simplex::check()$/;"	f	class:Simplex
+clone	any_impl.hpp	/^Any::AnyData<ValueType>::clone() const$/;"	f	class:Any::AnyData
+contract	simplex.cpp	/^Simplex::contract()$/;"	f	class:Simplex
+create	isotherm_factory.cpp	/^IsothermFactory::create(const std::string& isofile) const$/;"	f	class:IsothermFactory
+create	isotherm_factory.cpp	/^IsothermFactory::create(const std::string& name, std::vector<Any> args) const$/;"	f	class:IsothermFactory
+create	solver_factory.cpp	/^SolverFactory::create(std::string name)$/;"	f	class:SolverFactory
+expand	item_isotherm.cpp	/^ItemIsotherm::expand(double p) const$/;"	f	class:ItemIsotherm
+expand	simplex.cpp	/^Simplex::expand()$/;"	f	class:Simplex
+f	simplex.hpp	/^    ValuesType&  f;$/;"	m	class:Simplex
+fc	simplex.hpp	/^    ValueType fc; \/\/ Value of Contracted Point.$/;"	m	class:Simplex
+fe	simplex.hpp	/^    ValueType fe; \/\/ Value of Expanded Point.$/;"	m	class:Simplex
+final	isotherm_utility.hpp	/^class IsothermModeler final$/;"	c
+fit	isotherm_utility.cpp	/^IsothermModeler::fit(const std::string& isoname,$/;"	f	class:IsothermModeler
+fr	simplex.hpp	/^    ValueType fr; \/\/ Value of Reflected Point.$/;"	m	class:Simplex
+func	test/bisection_solver/test.cpp	/^func(const Solver::PointType& p)$/;"	f
+func1	test/arma_solver/test.cpp	/^func1(const Solver::PointType& p)$/;"	f
+func1	test/simplex_solver/test.cpp	/^func1(const Simplex::PointType& p)$/;"	f
+func2	test/arma_solver/test.cpp	/^func2(const Solver::PointType& p)$/;"	f
+func2	test/simplex_solver/test.cpp	/^func2(const Simplex::PointType& p)$/;"	f
+func3	test/arma_solver/test.cpp	/^func3(const Solver::PointType& p)$/;"	f
+func3	test/simplex_solver/test.cpp	/^func3(const Simplex::PointType& p)$/;"	f
+func_t	root_finder_def.hpp	/^    typedef std::function<double(const vec&)> func_t;$/;"	t	class:root_finder
+getAs	any_impl.hpp	/^T Any::getAs() const$/;"	f	class:Any
+getAsHelper	any_impl.hpp	/^T* Any::getAsHelper() const$/;"	f	class:Any
+getError	isotherm_utility.cpp	/^IsothermModeler::getError() const$/;"	f	class:IsothermModeler
+getInfoString	bet_isotherm.cpp	/^BetIsotherm::getInfoString() const$/;"	f	class:BetIsotherm
+getInfoString	dsl_isotherm.cpp	/^DslIsotherm::getInfoString() const$/;"	f	class:DslIsotherm
+getInfoString	dslf_isotherm.cpp	/^DslfIsotherm::getInfoString() const$/;"	f	class:DslfIsotherm
+getInfoString	henry_isotherm.cpp	/^HenryIsotherm::getInfoString() const$/;"	f	class:HenryIsotherm
+getInfoString	interpolator_isotherm.cpp	/^InterpolatorIsotherm::getInfoString() const$/;"	f	class:InterpolatorIsotherm
+getInfoString	item_isotherm.cpp	/^ItemIsotherm::getInfoString() const$/;"	f	class:ItemIsotherm
+getInfoString	langmuir_isotherm.cpp	/^LangmuirIsotherm::getInfoString() const$/;"	f	class:LangmuirIsotherm
+getInfoString	lf_isotherm.cpp	/^LfIsotherm::getInfoString() const$/;"	f	class:LfIsotherm
+getInfoString	quadratic_isotherm.cpp	/^QuadraticIsotherm::getInfoString() const$/;"	f	class:QuadraticIsotherm
+getInterpolator	interpolator_isotherm.cpp	/^InterpolatorIsotherm::getInterpolator()$/;"	f	class:InterpolatorIsotherm
+getMinimumPoint	simplex.cpp	/^Simplex::getMinimumPoint() const$/;"	f	class:Simplex
+getMinimumValue	simplex.cpp	/^Simplex::getMinimumValue() const$/;"	f	class:Simplex
+getNumFunctionCalls	arma_solver.cpp	/^ArmaSolver::getNumFunctionCalls() const$/;"	f	class:ArmaSolver
+getNumFunctionCalls	bisection_solver.cpp	/^BisectionSolver::getNumFunctionCalls() const$/;"	f	class:BisectionSolver
+getNumFunctionCalls	simplex.cpp	/^Simplex::getNumFunctionCalls() const$/;"	f	class:Simplex
+getNumFunctionCalls	simplex_solver.cpp	/^SimplexSolver::getNumFunctionCalls() const$/;"	f	class:SimplexSolver
+getParameters	bet_isotherm.cpp	/^BetIsotherm::getParameters() const$/;"	f	class:BetIsotherm
+getParameters	dsl_isotherm.cpp	/^DslIsotherm::getParameters() const$/;"	f	class:DslIsotherm
+getParameters	dslf_isotherm.cpp	/^DslfIsotherm::getParameters() const$/;"	f	class:DslfIsotherm
+getParameters	henry_isotherm.cpp	/^HenryIsotherm::getParameters() const$/;"	f	class:HenryIsotherm
+getParameters	interpolator_isotherm.cpp	/^InterpolatorIsotherm::getParameters() const$/;"	f	class:InterpolatorIsotherm
+getParameters	item_isotherm.cpp	/^ItemIsotherm::getParameters() const$/;"	f	class:ItemIsotherm
+getParameters	langmuir_isotherm.cpp	/^LangmuirIsotherm::getParameters() const$/;"	f	class:LangmuirIsotherm
+getParameters	lf_isotherm.cpp	/^LfIsotherm::getParameters() const$/;"	f	class:LfIsotherm
+getParameters	quadratic_isotherm.cpp	/^QuadraticIsotherm::getParameters() const$/;"	f	class:QuadraticIsotherm
+getRSquare	isotherm_utility.cpp	/^IsothermModeler::getRSquare() const$/;"	f	class:IsothermModeler
+getResult	iast_core.cpp	/^Iast::getResult() const$/;"	f	class:Iast
+getRootPoint	arma_solver.cpp	/^ArmaSolver::getRootPoint() const$/;"	f	class:ArmaSolver
+getRootPoint	bisection_solver.cpp	/^BisectionSolver::getRootPoint() const$/;"	f	class:BisectionSolver
+getRootPoint	simplex_solver.cpp	/^SimplexSolver::getRootPoint() const$/;"	f	class:SimplexSolver
+getType	any_impl.hpp	/^Any::AnyData<ValueType>::getType() const$/;"	f	class:Any::AnyData
+getType	any_impl.hpp	/^Any::getType() const$/;"	f	class:Any
+getValue	any_impl.hpp	/^Any::AnyData<ValueType>::getValue()$/;"	f	class:Any::AnyData
+getXData	linear_interpolator.cpp	/^LinearInterpolator::getXData()$/;"	f	class:LinearInterpolator
+getYData	linear_interpolator.cpp	/^LinearInterpolator::getYData()$/;"	f	class:LinearInterpolator
+get_iterations	root_finder_impl.hpp	/^root_finder::get_iterations()$/;"	f	class:root_finder
+inverseIsotherm	isotherm_utility.cpp	/^inverseIsotherm(Isotherm& isotherm, double n)$/;"	f
+isEmpty	any_impl.hpp	/^Any::isEmpty() const$/;"	f	class:Any
+iso1	dsl_isotherm.hpp	/^    LangmuirIsotherm iso1;$/;"	m	class:DslIsotherm
+iso1	dslf_isotherm.hpp	/^    LfIsotherm iso1;$/;"	m	class:DslfIsotherm
+iso2	dsl_isotherm.hpp	/^    LangmuirIsotherm iso2;$/;"	m	class:DslIsotherm
+iso2	dslf_isotherm.hpp	/^    LfIsotherm iso2;$/;"	m	class:DslfIsotherm
+k1	bet_isotherm.hpp	/^    double k1;$/;"	m	class:BetIsotherm
+k1	quadratic_isotherm.hpp	/^    double k1;$/;"	m	class:QuadraticIsotherm
+k2	bet_isotherm.hpp	/^    double k2;$/;"	m	class:BetIsotherm
+k2	quadratic_isotherm.hpp	/^    double k2;$/;"	m	class:QuadraticIsotherm
+loading	bet_isotherm.cpp	/^BetIsotherm::loading(double p) const$/;"	f	class:BetIsotherm
+loading	dsl_isotherm.cpp	/^DslIsotherm::loading(double P) const$/;"	f	class:DslIsotherm
+loading	dslf_isotherm.cpp	/^DslfIsotherm::loading(double P) const$/;"	f	class:DslfIsotherm
+loading	henry_isotherm.cpp	/^HenryIsotherm::loading(double P) const$/;"	f	class:HenryIsotherm
+loading	interpolator_isotherm.cpp	/^InterpolatorIsotherm::loading(double P) const$/;"	f	class:InterpolatorIsotherm
+loading	item_isotherm.cpp	/^ItemIsotherm::loading(double p) const$/;"	f	class:ItemIsotherm
+loading	langmuir_isotherm.cpp	/^LangmuirIsotherm::loading(double P) const$/;"	f	class:LangmuirIsotherm
+loading	lf_isotherm.cpp	/^LfIsotherm::loading(double P) const$/;"	f	class:LfIsotherm
+loading	quadratic_isotherm.cpp	/^QuadraticIsotherm::loading(double p) const$/;"	f	class:QuadraticIsotherm
+mData	any.hpp	/^    std::unique_ptr<DataType> mData;$/;"	m	class:Any
+mDimension	simplex.hpp	/^    int          mDimension;$/;"	m	class:Simplex
+mError	isotherm_utility.hpp	/^    double mError;$/;"	m	class:final
+mFunction	bisection_solver.hpp	/^    std::function<double(double)> mFunction;$/;"	m	class:BisectionSolver
+mFunctions	arma_solver.hpp	/^    std::vector<FunctionType> mFunctions;$/;"	m	class:ArmaSolver
+mFunctions	simplex_solver.hpp	/^    std::vector<FunctionType> mFunctions;$/;"	m	class:SimplexSolver
+mHigh	bisection_solver.hpp	/^    ValueType mHigh;$/;"	m	class:BisectionSolver
+mInitialPoint	arma_solver.hpp	/^    PointType mInitialPoint;$/;"	m	class:ArmaSolver
+mInitialPoint	simplex_solver.hpp	/^    PointType mInitialPoint;$/;"	m	class:SimplexSolver
+mIsoMap	isotherm_factory.hpp	/^    std::unordered_map<std::string, int> mIsoMap;$/;"	m	class:IsothermFactory
+mIsoheat	item_isotherm.hpp	/^    FunctorType mIsoheat;$/;"	m	class:ItemIsotherm
+mIsotherm	item_isotherm.hpp	/^    mutable InterpolatorIsotherm mIsotherm;$/;"	m	class:ItemIsotherm
+mIsothermMap	isotherm_utility.hpp	/^    std::map<std::string, int> mIsothermMap;$/;"	m	class:final
+mIsotherms	iast_core.hpp	/^    IsothermVector mIsotherms;$/;"	m	class:Iast
+mK	henry_isotherm.hpp	/^    double mK;$/;"	m	class:HenryIsotherm
+mK	langmuir_isotherm.hpp	/^    double mK;$/;"	m	class:LangmuirIsotherm
+mK	lf_isotherm.hpp	/^    double mK;$/;"	m	class:LfIsotherm
+mLoading	interpolator_isotherm.hpp	/^    mutable std::shared_ptr<Interpolator> mLoading;$/;"	m	class:InterpolatorIsotherm
+mLow	bisection_solver.hpp	/^    ValueType mLow;$/;"	m	class:BisectionSolver
+mMessage	iast_exception.hpp	/^    std::string mMessage;$/;"	m	class:IastException
+mMessage	isotherm_exception.hpp	/^    std::string mMessage;$/;"	m	class:IsothermException
+mMessage	minimizer_exception.hpp	/^    std::string mMessage;$/;"	m	class:MinimizerException
+mMessage	solver_exception.hpp	/^    std::string mMessage;$/;"	m	class:SolverException
+mN	lf_isotherm.hpp	/^    double mN;$/;"	m	class:LfIsotherm
+mNumFunctionCalls	arma_solver.hpp	/^    int mNumFunctionCalls;$/;"	m	class:ArmaSolver
+mNumFunctionCalls	bisection_solver.hpp	/^    int mNumFunctionCalls;$/;"	m	class:BisectionSolver
+mNumFunctionCalls	simplex.hpp	/^    int          mNumFunctionCalls;$/;"	m	class:Simplex
+mNumFunctionCalls	simplex_solver.hpp	/^    int mNumFunctionCalls;$/;"	m	class:SimplexSolver
+mNumRepeats	simplex.hpp	/^    int          mNumRepeats;$/;"	m	class:Simplex
+mNumRepeats	simplex_solver.hpp	/^    int mNumRepeats;$/;"	m	class:SimplexSolver
+mObjective	simplex.hpp	/^    VectorFunctionType mObjective;$/;"	m	class:Simplex
+mObjectiveCoreFunction	simplex.hpp	/^    FunctionType       mObjectiveCoreFunction;$/;"	m	class:Simplex
+mPoints	simplex.hpp	/^    VectorsType  mPoints;$/;"	m	class:Simplex
+mQ	langmuir_isotherm.hpp	/^    double mQ;$/;"	m	class:LangmuirIsotherm
+mQ	lf_isotherm.hpp	/^    double mQ;$/;"	m	class:LfIsotherm
+mRSquare	isotherm_utility.hpp	/^    double mRSquare;$/;"	m	class:final
+mRefIsotherm	item_isotherm.hpp	/^    IsothermPtr mRefIsotherm;$/;"	m	class:ItemIsotherm
+mRefTemperature	item_isotherm.hpp	/^    double mRefTemperature;$/;"	m	class:ItemIsotherm
+mResult	iast_core.hpp	/^    ResultType mResult;$/;"	m	class:Iast
+mRootPoint	arma_solver.hpp	/^    PointType mRootPoint;$/;"	m	class:ArmaSolver
+mRootPoint	bisection_solver.hpp	/^    PointType mRootPoint;$/;"	m	class:BisectionSolver
+mRootPoint	simplex_solver.hpp	/^    PointType mRootPoint;$/;"	m	class:SimplexSolver
+mSpressure	interpolator_isotherm.hpp	/^    std::vector<double> mSpressure;$/;"	m	class:InterpolatorIsotherm
+mTarTemperature	item_isotherm.hpp	/^    double mTarTemperature;$/;"	m	class:ItemIsotherm
+mTol	bisection_solver.hpp	/^    ValueType mTol;$/;"	m	class:BisectionSolver
+mTolF	simplex.hpp	/^    ValueType    mTolF;$/;"	m	class:Simplex
+mTolF	simplex_solver.hpp	/^    ValueType mTolF;$/;"	m	class:SimplexSolver
+mTolX	simplex.hpp	/^    ValueType    mTolX;$/;"	m	class:Simplex
+mTolX	simplex_solver.hpp	/^    ValueType mTolX;$/;"	m	class:SimplexSolver
+mValue	any.hpp	/^    ValueType mValue;$/;"	m	class:Any::AnyData
+mValues	simplex.hpp	/^    ValuesType   mValues;$/;"	m	class:Simplex
+main	test/any/test.cpp	/^int main()$/;"	f
+main	test/arma_solver/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/bisection_solver/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/iast/test.cpp	/^main()$/;"	f
+main	test/iast_cubtc/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/iast_zif8/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/iast_zn-mof-74/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/interpolator/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/isofile/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/isotherm/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/item/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/simplex/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/simplex_solver/test.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/utility/alliso.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/utility/fitiso.cpp	/^main(int argc, char* argv[])$/;"	f
+main	test/utility/test.cpp	/^main()$/;"	f
+mat	root_finder_def.hpp	/^    typedef arma::mat mat;$/;"	t	class:root_finder
+minimize	simplex.cpp	/^Simplex::minimize()$/;"	f	class:Simplex
+minimizeOnce	simplex.cpp	/^Simplex::minimizeOnce()$/;"	f	class:Simplex
+modeFixNx	iast_core.cpp	/^Iast::modeFixNx(ValueType n, std::vector<ValueType> x)$/;"	f	class:Iast
+modeFixPx	iast_core.cpp	/^Iast::modeFixPx(ValueType p, std::vector<ValueType> x)$/;"	f	class:Iast
+modeFixPy	iast_core.cpp	/^Iast::modeFixPy(ValueType p, std::vector<ValueType> y)$/;"	f	class:Iast
+n	simplex.hpp	/^    int& n;$/;"	m	class:Simplex
+newPressure	item_isotherm.cpp	/^ItemIsotherm::newPressure(double n) const$/;"	f	class:ItemIsotherm
+noexcept	any.hpp	/^    virtual inline const char* what() const noexcept;$/;"	m	class:AnyException
+obj	test/simplex/test.cpp	/^double obj(const Minimizer::PointType& p)$/;"	f
+operator ()	linear_interpolator.cpp	/^LinearInterpolator::operator () (double x) const$/;"	f	class:LinearInterpolator
+operator =	any_impl.hpp	/^Any& Any::operator = (T&& value)$/;"	f	class:Any
+operator =	any_impl.hpp	/^Any::operator = (Any&& other)$/;"	f	class:Any
+operator =	any_impl.hpp	/^Any::operator = (const Any& other)$/;"	f	class:Any
+operator []	iast_core.cpp	/^Iast::operator [] (int i)$/;"	f	class:Iast
+override	any.hpp	/^    virtual inline const std::type_info& getType() const override;$/;"	m	class:Any::AnyData
+override	any.hpp	/^    virtual inline std::unique_ptr<DataType> clone() const override;$/;"	m	class:Any::AnyData
+override	arma_solver.hpp	/^    virtual PointType getRootPoint() const override;$/;"	m	class:ArmaSolver
+override	arma_solver.hpp	/^    virtual Solver& setFunctions(std::vector<FunctionType> functions) override;$/;"	m	class:ArmaSolver
+override	arma_solver.hpp	/^    virtual Solver& setInitialPoint(PointType point) override;$/;"	m	class:ArmaSolver
+override	arma_solver.hpp	/^    virtual Solver& setOption(int option, ValueType value) override;$/;"	m	class:ArmaSolver
+override	arma_solver.hpp	/^    virtual Solver& solve() override;$/;"	m	class:ArmaSolver
+override	arma_solver.hpp	/^    virtual int getNumFunctionCalls() const override;$/;"	m	class:ArmaSolver
+override	bet_isotherm.hpp	/^    virtual ParameterType getParameters() const override;$/;"	m	class:BetIsotherm
+override	bet_isotherm.hpp	/^    virtual double loading(double p) const override;$/;"	m	class:BetIsotherm
+override	bet_isotherm.hpp	/^    virtual double spressure(double p) const override;$/;"	m	class:BetIsotherm
+override	bet_isotherm.hpp	/^    virtual std::string getInfoString() const override;$/;"	m	class:BetIsotherm
+override	bisection_solver.hpp	/^    virtual PointType getRootPoint() const override;$/;"	m	class:BisectionSolver
+override	bisection_solver.hpp	/^    virtual Solver& setFunctions(std::vector<FunctionType> functions) override;$/;"	m	class:BisectionSolver
+override	bisection_solver.hpp	/^    virtual Solver& setInitialPoint(PointType point) override;$/;"	m	class:BisectionSolver
+override	bisection_solver.hpp	/^    virtual Solver& setOption(int option, ValueType value) override;$/;"	m	class:BisectionSolver
+override	bisection_solver.hpp	/^    virtual Solver& solve() override;$/;"	m	class:BisectionSolver
+override	bisection_solver.hpp	/^    virtual int getNumFunctionCalls() const override;$/;"	m	class:BisectionSolver
+override	dsl_isotherm.hpp	/^    virtual ParameterType getParameters() const override;$/;"	m	class:DslIsotherm
+override	dsl_isotherm.hpp	/^    virtual double loading(double P) const override;$/;"	m	class:DslIsotherm
+override	dsl_isotherm.hpp	/^    virtual double spressure(double P) const override;$/;"	m	class:DslIsotherm
+override	dsl_isotherm.hpp	/^    virtual std::string getInfoString() const override;$/;"	m	class:DslIsotherm
+override	dslf_isotherm.hpp	/^    virtual ParameterType getParameters() const override;$/;"	m	class:DslfIsotherm
+override	dslf_isotherm.hpp	/^    virtual double loading(double P) const override;$/;"	m	class:DslfIsotherm
+override	dslf_isotherm.hpp	/^    virtual double spressure(double P) const override;$/;"	m	class:DslfIsotherm
+override	dslf_isotherm.hpp	/^    virtual std::string getInfoString() const override;$/;"	m	class:DslfIsotherm
+override	henry_isotherm.hpp	/^    virtual ParameterType getParameters() const override;$/;"	m	class:HenryIsotherm
+override	henry_isotherm.hpp	/^    virtual double loading(double P) const override;$/;"	m	class:HenryIsotherm
+override	henry_isotherm.hpp	/^    virtual double spressure(double P) const override;$/;"	m	class:HenryIsotherm
+override	henry_isotherm.hpp	/^    virtual std::string getInfoString() const override;$/;"	m	class:HenryIsotherm
+override	iast_exception.hpp	/^    virtual const char* what() const noexcept override;$/;"	m	class:IastException
+override	interpolator_isotherm.hpp	/^    virtual ParameterType getParameters() const override;$/;"	m	class:InterpolatorIsotherm
+override	interpolator_isotherm.hpp	/^    virtual double loading(double P) const override;$/;"	m	class:InterpolatorIsotherm
+override	interpolator_isotherm.hpp	/^    virtual double spressure(double P) const override;$/;"	m	class:InterpolatorIsotherm
+override	interpolator_isotherm.hpp	/^    virtual std::string getInfoString() const override;$/;"	m	class:InterpolatorIsotherm
+override	isotherm_exception.hpp	/^    virtual const char* what() const noexcept override;$/;"	m	class:IsothermException
+override	item_isotherm.hpp	/^    virtual ParameterType getParameters() const override;$/;"	m	class:ItemIsotherm
+override	item_isotherm.hpp	/^    virtual double loading(double p) const override;$/;"	m	class:ItemIsotherm
+override	item_isotherm.hpp	/^    virtual double spressure(double p) const override;$/;"	m	class:ItemIsotherm
+override	item_isotherm.hpp	/^    virtual std::string getInfoString() const override;$/;"	m	class:ItemIsotherm
+override	langmuir_isotherm.hpp	/^    virtual ParameterType getParameters() const override;$/;"	m	class:LangmuirIsotherm
+override	langmuir_isotherm.hpp	/^    virtual double loading(double P) const override;$/;"	m	class:LangmuirIsotherm
+override	langmuir_isotherm.hpp	/^    virtual double spressure(double P) const override;$/;"	m	class:LangmuirIsotherm
+override	langmuir_isotherm.hpp	/^    virtual std::string getInfoString() const override;$/;"	m	class:LangmuirIsotherm
+override	lf_isotherm.hpp	/^    virtual ParameterType getParameters() const override;$/;"	m	class:LfIsotherm
+override	lf_isotherm.hpp	/^    virtual double loading(double P) const override;$/;"	m	class:LfIsotherm
+override	lf_isotherm.hpp	/^    virtual double spressure(double P) const override;$/;"	m	class:LfIsotherm
+override	lf_isotherm.hpp	/^    virtual std::string getInfoString() const override;$/;"	m	class:LfIsotherm
+override	linear_interpolator.hpp	/^                                  const std::vector<double>& y) override;$/;"	m	class:LinearInterpolator
+override	linear_interpolator.hpp	/^    virtual Interpolator& pushBack(double x, double y) override;$/;"	m	class:LinearInterpolator
+override	linear_interpolator.hpp	/^    virtual Interpolator& setOption(int option, double value) override;$/;"	m	class:LinearInterpolator
+override	linear_interpolator.hpp	/^    virtual double at(double x) const override;$/;"	m	class:LinearInterpolator
+override	linear_interpolator.hpp	/^    virtual double operator () (double x) const override;$/;"	m	class:LinearInterpolator
+override	linear_interpolator.hpp	/^    virtual std::vector<double>& getXData() override;$/;"	m	class:LinearInterpolator
+override	linear_interpolator.hpp	/^    virtual std::vector<double>& getYData() override;$/;"	m	class:LinearInterpolator
+override	minimizer_exception.hpp	/^    virtual const char* what() const noexcept override;$/;"	m	class:MinimizerException
+override	quadratic_isotherm.hpp	/^    virtual ParameterType getParameters() const override;$/;"	m	class:QuadraticIsotherm
+override	quadratic_isotherm.hpp	/^    virtual double loading(double p) const override;$/;"	m	class:QuadraticIsotherm
+override	quadratic_isotherm.hpp	/^    virtual double spressure(double p) const override;$/;"	m	class:QuadraticIsotherm
+override	quadratic_isotherm.hpp	/^    virtual std::string getInfoString() const override;$/;"	m	class:QuadraticIsotherm
+override	simplex.hpp	/^    virtual Minimizer& setFunction(FunctionType func) override;$/;"	m	class:Simplex
+override	simplex.hpp	/^    virtual Minimizer& setInitialPoint(PointType point) override;$/;"	m	class:Simplex
+override	simplex.hpp	/^    virtual Minimizer& setOption(int option, ValueType value) override;$/;"	m	class:Simplex
+override	simplex.hpp	/^    virtual PointType  getMinimumPoint() const override;$/;"	m	class:Simplex
+override	simplex.hpp	/^    virtual ValueType  getMinimumValue() const override;$/;"	m	class:Simplex
+override	simplex.hpp	/^    virtual int        getNumFunctionCalls() const override;$/;"	m	class:Simplex
+override	simplex_solver.hpp	/^    virtual PointType getRootPoint() const override;$/;"	m	class:SimplexSolver
+override	simplex_solver.hpp	/^    virtual Solver& setFunctions(std::vector<FunctionType> functions) override;$/;"	m	class:SimplexSolver
+override	simplex_solver.hpp	/^    virtual Solver& setInitialPoint(PointType point) override;$/;"	m	class:SimplexSolver
+override	simplex_solver.hpp	/^    virtual Solver& setOption(int option, ValueType value) override;$/;"	m	class:SimplexSolver
+override	simplex_solver.hpp	/^    virtual Solver& solve() override;$/;"	m	class:SimplexSolver
+override	simplex_solver.hpp	/^    virtual int       getNumFunctionCalls() const override;$/;"	m	class:SimplexSolver
+override	solver_exception.hpp	/^    virtual const char* what() const noexcept override;$/;"	m	class:SolverException
+params	dsl_isotherm.hpp	/^    double params[4];$/;"	m	class:DslIsotherm
+params	dslf_isotherm.hpp	/^    double params[6];$/;"	m	class:DslfIsotherm
+pushBack	interpolator_isotherm.cpp	/^InterpolatorIsotherm::pushBack(double p, double n)$/;"	f	class:InterpolatorIsotherm
+pushBack	linear_interpolator.cpp	/^LinearInterpolator::pushBack(double x, double y)$/;"	f	class:LinearInterpolator
+q	bet_isotherm.hpp	/^    double q;$/;"	m	class:BetIsotherm
+q	quadratic_isotherm.hpp	/^    double q;$/;"	m	class:QuadraticIsotherm
+readParameterMap	isotherm_factory.cpp	/^IsothermFactory::readParameterMap(std::ifstream& ifs) const$/;"	f	class:IsothermFactory
+readTwoColumns	isotherm_utility.cpp	/^readTwoColumns(const std::string& filename,$/;"	f
+readTwoColumns	isotherm_utility.cpp	/^readTwoColumns(std::istream& is,$/;"	f
+reflect	simplex.cpp	/^Simplex::reflect()$/;"	f	class:Simplex
+reset_eqn	root_finder_impl.hpp	/^root_finder::reset_eqn()$/;"	f	class:root_finder
+root_finder	root_finder_def.hpp	/^class root_finder$/;"	c
+setData	linear_interpolator.cpp	/^LinearInterpolator::setData(const std::vector<double>& x,$/;"	f	class:LinearInterpolator
+setFunction	simplex.cpp	/^Simplex::setFunction(FunctionType func)$/;"	f	class:Simplex
+setFunctions	arma_solver.cpp	/^ArmaSolver::setFunctions(std::vector<FunctionType> functions)$/;"	f	class:ArmaSolver
+setFunctions	bisection_solver.cpp	/^BisectionSolver::setFunctions(std::vector<FunctionType> functions)$/;"	f	class:BisectionSolver
+setFunctions	simplex_solver.cpp	/^SimplexSolver::setFunctions(std::vector<FunctionType> functions)$/;"	f	class:SimplexSolver
+setInitialPoint	arma_solver.cpp	/^ArmaSolver::setInitialPoint(PointType point)$/;"	f	class:ArmaSolver
+setInitialPoint	bisection_solver.cpp	/^BisectionSolver::setInitialPoint(PointType point)$/;"	f	class:BisectionSolver
+setInitialPoint	simplex.cpp	/^Simplex::setInitialPoint(PointType point)$/;"	f	class:Simplex
+setInitialPoint	simplex_solver.cpp	/^SimplexSolver::setInitialPoint(PointType point)$/;"	f	class:SimplexSolver
+setIsotherms	iast_core.cpp	/^Iast::setIsotherms(IsothermVector isothermVector)$/;"	f	class:Iast
+setOption	arma_solver.cpp	/^ArmaSolver::setOption(int option, ValueType value)$/;"	f	class:ArmaSolver
+setOption	bisection_solver.cpp	/^BisectionSolver::setOption(int option, ValueType value)$/;"	f	class:BisectionSolver
+setOption	linear_interpolator.cpp	/^LinearInterpolator::setOption(int option, double value)$/;"	f	class:LinearInterpolator
+setOption	simplex.cpp	/^Simplex::setOption(int option, ValueType value)$/;"	f	class:Simplex
+setOption	simplex_solver.cpp	/^SimplexSolver::setOption(int option, ValueType value)$/;"	f	class:SimplexSolver
+set_initial_guess	root_finder_impl.hpp	/^root_finder::set_initial_guess(const vec& initial_guess)$/;"	f	class:root_finder
+shrink	simplex.cpp	/^Simplex::shrink()$/;"	f	class:Simplex
+solve	arma_solver.cpp	/^ArmaSolver::solve()$/;"	f	class:ArmaSolver
+solve	bisection_solver.cpp	/^BisectionSolver::solve()$/;"	f	class:BisectionSolver
+solve	root_finder_impl.hpp	/^root_finder::solve()$/;"	f	class:root_finder
+solve	simplex_solver.cpp	/^SimplexSolver::solve()$/;"	f	class:SimplexSolver
+sort	simplex.cpp	/^Simplex::sort()$/;"	f	class:Simplex
+spressure	bet_isotherm.cpp	/^BetIsotherm::spressure(double p) const$/;"	f	class:BetIsotherm
+spressure	dsl_isotherm.cpp	/^DslIsotherm::spressure(double P) const$/;"	f	class:DslIsotherm
+spressure	dslf_isotherm.cpp	/^DslfIsotherm::spressure(double P) const$/;"	f	class:DslfIsotherm
+spressure	henry_isotherm.cpp	/^HenryIsotherm::spressure(double P) const$/;"	f	class:HenryIsotherm
+spressure	interpolator_isotherm.cpp	/^InterpolatorIsotherm::spressure(double P) const$/;"	f	class:InterpolatorIsotherm
+spressure	item_isotherm.cpp	/^ItemIsotherm::spressure(double p) const$/;"	f	class:ItemIsotherm
+spressure	langmuir_isotherm.cpp	/^LangmuirIsotherm::spressure(double P) const$/;"	f	class:LangmuirIsotherm
+spressure	lf_isotherm.cpp	/^LfIsotherm::spressure(double P) const$/;"	f	class:LfIsotherm
+spressure	quadratic_isotherm.cpp	/^QuadraticIsotherm::spressure(double p) const$/;"	f	class:QuadraticIsotherm
+swap	any_impl.hpp	/^Any::swap(Any& other)$/;"	f	class:Any
+vec	root_finder_def.hpp	/^    typedef arma::vec vec;$/;"	t	class:root_finder
+x	simplex.hpp	/^    VectorsType& x;$/;"	m	class:Simplex
+xc	simplex.hpp	/^    VectorType xc; \/\/ Contracted Point.$/;"	m	class:Simplex
+xe	simplex.hpp	/^    VectorType xe; \/\/ Expanded Point.$/;"	m	class:Simplex
+xo	simplex.hpp	/^    VectorType xo; \/\/ Center of Simplex except x[n].$/;"	m	class:Simplex
+xr	simplex.hpp	/^    VectorType xr; \/\/ Reflected Point.$/;"	m	class:Simplex
+xs	linear_interpolator.hpp	/^    std::vector<double> xs;$/;"	m	class:LinearInterpolator
+ys	linear_interpolator.hpp	/^    std::vector<double> ys;$/;"	m	class:LinearInterpolator
+~Any	any_impl.hpp	/^Any::~Any()$/;"	f	class:Any
+~BetIsotherm	bet_isotherm.cpp	/^BetIsotherm::~BetIsotherm()$/;"	f	class:BetIsotherm
+~G	test/any/test.cpp	/^    ~G() {cout << "Im done" << endl;}$/;"	f	class:G
+~IsothermModeler	isotherm_utility.cpp	/^IsothermModeler::~IsothermModeler()$/;"	f	class:IsothermModeler
+~ItemIsotherm	item_isotherm.cpp	/^ItemIsotherm::~ItemIsotherm()$/;"	f	class:ItemIsotherm
+~QuadraticIsotherm	quadratic_isotherm.cpp	/^QuadraticIsotherm::~QuadraticIsotherm()$/;"	f	class:QuadraticIsotherm
+~Simplex	simplex.cpp	/^Simplex::~Simplex()$/;"	f	class:Simplex
