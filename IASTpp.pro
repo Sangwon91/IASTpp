@@ -70,7 +70,8 @@ SOURCES += main.cpp\
     iast_plotter/plotter_core.cpp \
     qcustomplot/qcustomplot.cpp \
     isotherm_calculator.cpp \
-    home_widget.cpp
+    home_widget.cpp \
+    iast_gui_logger.cpp
 
 HEADERS  += iast_gui.h \
     iast_modeler_widget.h \
@@ -145,7 +146,8 @@ HEADERS  += iast_gui.h \
     iast_plotter/plotter_core.h \
     qcustomplot/qcustomplot.h \
     isotherm_calculator.h \
-    home_widget.h
+    home_widget.h \
+    iast_gui_logger.h
 
 RESOURCES += \
     resources.qrc \
