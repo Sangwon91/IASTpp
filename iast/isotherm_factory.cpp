@@ -230,7 +230,7 @@ IsothermFactory::create(const std::string& isofile) const
         }
     catch (const std::out_of_range& e)
         {
-        std::string msg = "Invalid .iso syntax in " + isofile;
+        std::string msg = "Invalid .isotherm syntax in " + isofile;
 
         throw IsothermException {__FILE__, __LINE__, msg};
         }
