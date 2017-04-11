@@ -4,13 +4,12 @@
 #
 #-------------------------------------------------
 
-QT       += core gui charts
+QT       += core gui charts webenginewidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
 TARGET = IAST++
 TEMPLATE = app
-
 
 SOURCES += main.cpp\
         iast_gui.cpp \

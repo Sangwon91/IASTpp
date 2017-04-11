@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QTextBrowser>
 #include <QLabel>
+#include <QWebEngineView>
 
 class HomeWidget : public QWidget
 {
@@ -18,6 +19,7 @@ public slots:
 private:
     void setup();
 private:
+    QWebEngineView* mWebView;
     QTextBrowser* mHomeText;
     QLabel* mHomeLabel;
 };

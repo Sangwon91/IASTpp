@@ -2,11 +2,8 @@
     <qresource prefix="/">
         <file>images/splash.png</file>
         <file>images/question.png</file>
-        <file>images/splash.gif</file>
         <file>images/Logo4.png</file>
         <file>images/aboutLogo.png</file>
-        <file>images/IAST.png</file>
-        <file>images/Modeler.png</file>
         <file>skins/dark_monokai/DarkMonokai.qss</file>
         <file>images/cogwheel.png</file>
         <file>images/plotter.png</file>
