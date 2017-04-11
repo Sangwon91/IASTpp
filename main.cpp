@@ -8,10 +8,13 @@
 
 // User-Defined Libraries
 #include "iast_gui.h"
+#include "iast_gui_logger.h"
 
 int
 main(int argc, char* argv[])
 try {
+    IAST_GUI_LOG("Start log");
+
     QApplication app(argc, argv);
 
     new IastGui;
