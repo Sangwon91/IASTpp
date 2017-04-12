@@ -18,6 +18,9 @@
 
 #include "iast_gui_exception.h"
 
+// Logger
+#include "iast_gui_logger.h"
+
 // Simple Helper class
 DoubleSpinBox::DoubleSpinBox(QWidget* parent) : QDoubleSpinBox {parent} {}
 

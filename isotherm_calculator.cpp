@@ -30,6 +30,9 @@
 // QCustomPlot
 #include "qcustomplot/qcustomplot.h"
 
+// Logger
+#include "iast_gui_logger.h"
+
 namespace // Space span helpers
 {
 std::vector<double>

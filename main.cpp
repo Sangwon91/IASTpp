@@ -13,8 +13,7 @@
 int
 main(int argc, char* argv[])
 try {
-    IAST_GUI_LOG("Start log");
-
+    IAST_GUI_LOG("Start Program");
     QApplication app(argc, argv);
 
     new IastGui;
@@ -23,6 +22,7 @@ try {
     }
 catch(std::exception& e)
     {
+    IAST_GUI_LOG("Unexpected exception occurs");
     std::cerr << e.what() << std::endl;
 
     return 1;

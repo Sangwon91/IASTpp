@@ -8,6 +8,9 @@
 #include "core_output_widget.h"
 #include "core_calculator.h"
 
+// Logger
+#include "iast_gui_logger.h"
+
 IastCoreWidget::IastCoreWidget(QWidget *parent) : QWidget(parent)
     {
     this->setup();

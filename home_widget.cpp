@@ -5,6 +5,9 @@
 #include <QUrl>
 #include <QFont>
 
+// Logger
+#include "iast_gui_logger.h"
+
 HomeWidget::HomeWidget(QWidget *parent) : QWidget(parent)
     {
     this->setup();

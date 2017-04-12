@@ -33,6 +33,9 @@
 #include "iast_core_widget.h"
 #include "isotherm_calculator.h"
 
+// Logger
+#include "iast_gui_logger.h"
+
 const QString IastGui::ProgramVersion = "1.0.0";
 
 IastGui::IastGui(QWidget* parent)

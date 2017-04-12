@@ -5,6 +5,9 @@
 
 #include "muparser/muParser.h"
 
+// Logger
+#include "iast_gui_logger.h"
+
 ExpressionParser::VariableMap ExpressionParser::EmptyMap;
 
 struct ExpressionParser::impl

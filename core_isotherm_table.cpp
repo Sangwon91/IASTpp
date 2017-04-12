@@ -16,6 +16,9 @@
 #include <QFont>
 #include <QApplication>
 
+// Logger
+#include "iast_gui_logger.h"
+
 CoreIsothermTable::CoreIsothermTable(QWidget* parent) : QWidget (parent)
     {
     this->setup();

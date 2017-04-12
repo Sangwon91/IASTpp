@@ -23,6 +23,8 @@
 
 #include "core_range_generator.h"
 
+// Logger
+#include "iast_gui_logger.h"
 
 CoreInputWidget::CoreInputWidget(QWidget *parent) : QWidget(parent),
     mRangeGenerator {nullptr}

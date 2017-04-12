@@ -17,6 +17,9 @@
 
 #include "iast_plotter/iast_plotter_widget.h"
 
+// Logger
+#include "iast_gui_logger.h"
+
 CoreOutputWidget::CoreOutputWidget(QWidget *parent) :
     QWidget(parent),
     mPlotter {nullptr}

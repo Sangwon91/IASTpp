@@ -20,11 +20,3 @@ IastGuiLogger::instance()
 
     return *mInstance;
     }
-
-void
-IastGuiLogger::log(const std::string &file, const int &line, const std::string& msg)
-    {
-    std::clog << "FILE: " << file << ", " <<
-                 "LINE: " << line << ", " <<
-                 msg << std::endl;
-    }

@@ -7,6 +7,9 @@
 
 #include <cmath>
 
+// Logger
+#include "iast_gui_logger.h"
+
 IastModelerPlot::IastModelerPlot(QWidget* parent) : QChartView (parent)
     {
     mModelSeries = new QLineSeries (this);

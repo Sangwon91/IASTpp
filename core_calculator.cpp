@@ -15,6 +15,9 @@
 #include "iast/iast_exception.hpp"
 #include "iast/isotherm_factory.hpp"
 
+// Logger
+#include "iast_gui_logger.h"
+
 CoreCalculator::CoreCalculator(CoreIsothermTable* isoWidget,
                                CoreInputWidget* inputWidget,
                                CoreOutputWidget* outputWidget,
@@ -30,8 +33,6 @@ CoreCalculator::CoreCalculator(CoreIsothermTable* isoWidget,
 void
 CoreCalculator::calculate()
 try {
-    qDebug() << __FILE__ << __LINE__ << "calculate()";
-
     IsothermFactory factory;
 
     Iast::IsothermVector isotherms;
@@ -40,7 +41,6 @@ try {
     auto isoTable = mIsoWidget->table();
 
     int size = isoTable->rowCount();
-    qDebug() << __FILE__ << __LINE__ << size;
 
     if (size < 2)
         {
@@ -68,7 +68,7 @@ try {
 
         // Invalid Isofile Exception is needed.
         isotherms.push_back(factory.create(path.toStdString()));
-        qDebug() << isotherms.back()->getInfoString().c_str();
+        IAST_GUI_LOG(isotherms.back()->getInfoString());
         }
 
     Iast iast;
@@ -92,7 +92,7 @@ try {
     else
         ; // What?
 
-    qDebug() << "IAST Mode:" << mode;
+    IAST_GUI_LOG("IAST MODE:", mode);
 
     auto outputTable = mOutputWidget->table();
     outputTable->clear();
@@ -163,7 +163,8 @@ try {
         bool okFinal = true;
         bool ok;
 
-        qDebug() << __FILE__ << __LINE__ << "Empty cells test starts";
+        //qDebug() << __FILE__ << __LINE__ << "Empty cells test starts";
+        IAST_GUI_LOG("Check Empty Cells");
         if (inputTable->item(i, 0) == nullptr)
             {
             int r = QMessageBox::critical(nullptr, tr("Error"),
@@ -223,7 +224,7 @@ try {
         double extenseResult;
         std::vector<double> intenseResult;
 
-        qDebug() << "Start IAST calculations";
+        IAST_GUI_LOG("Start IAST Calculation", "Row:", i);
 
         try {
             if (okFinal)
@@ -234,8 +235,6 @@ try {
             {
             okFinal = false;
             }
-
-        qDebug() << "End IAST calculations";
 
         if (not okFinal)
             {

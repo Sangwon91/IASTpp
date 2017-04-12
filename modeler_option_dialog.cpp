@@ -14,6 +14,9 @@
 
 #include "iast_gui_exception.h"
 
+// Logger
+#include "iast_gui_logger.h"
+
 ModelerOptionDialog::ModelerOptionDialog(const InfosType* info, QWidget *parent) : QDialog (parent)
     {
     mIsoInfo = info;

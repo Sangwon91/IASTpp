@@ -45,6 +45,9 @@ QT_CHARTS_USE_NAMESPACE
 #include "iast/isotherm_utility.hpp"
 #include "iast_gui_exception.h"
 
+// Logger
+#include "iast_gui_logger.h"
+
 IastModelerWidget::IastModelerWidget(QWidget* parent) : QWidget (parent)
     {
     this->setupIsothermInformation();

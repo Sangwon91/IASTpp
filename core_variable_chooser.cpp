@@ -4,6 +4,9 @@
 #include <QVBoxLayout>
 #include <QButtonGroup>
 
+// Logger
+#include "iast_gui_logger.h"
+
 CoreVariableChooser::CoreVariableChooser(QWidget *parent) : QWidget(parent)
     {
     this->setup();
