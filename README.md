@@ -10,4 +10,4 @@
 * Company: [Molecular Simulation Group, KAIST](http://molsim.kaist.ac.kr)
 * Developer: lsw91@kaist.ac.kr
 
-* Please cite [me](https://github.com/Sangwon91/IASTpp) if you find it useful!
+* Please cite [me](https://link.springer.com/article/10.1007%2Fs11814-017-0269-9) if you find it useful!
