@@ -15,7 +15,7 @@ public:
 signals:
 
 public slots:
-
+    void gotoHome();
 private:
     void setup();
 private:
