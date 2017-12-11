@@ -93,7 +93,9 @@ Iast::modeFixPy(ValueType p, std::vector<ValueType> y)
         for (const auto& e : x)
             {
             if (e < 0.0)
-                return 1.0e30;
+                return 1e5;
+            else
+                sum += e;
 
             sum += e;
             }
@@ -106,7 +108,12 @@ Iast::modeFixPy(ValueType p, std::vector<ValueType> y)
     x.resize(dim);
 
     for (int i = 0; i < dim; ++i)
+        {
         x[i] = mIsotherms[i]->loading(p * y[i]);
+
+        if (x[i] < 1e-6)
+            x[i] = 1e-6;
+        }
 
     try {
         // Solve!
@@ -169,7 +176,9 @@ Iast::modeFixPx(ValueType p, std::vector<ValueType> x)
         for (const auto& e : y)
             {
             if (e < 0.0)
-                return 1.0e30;
+                return 1e5;
+            else
+                sum += e;
 
             sum += e;
             }
@@ -256,7 +265,12 @@ Iast::modeFixNx(ValueType n, std::vector<ValueType> x)
 
     try {
         for (int i = 0; i < dim; ++i)
+            {
             p[i] = ::inverseIsotherm(*mIsotherms[i], n * x[i]);
+
+            if (p[i] < 1e-6)
+                p[i] = 1e-6;
+            }
         }
     catch (IsothermException& e)
         {
