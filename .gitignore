@@ -1,6 +1,6 @@
 *.o
 build*
-*.bat
+#*.bat
 installer/IAST++
 installer/iastpp_*
 installer/packages/kaist.molsim.iastpp/data/*
