@@ -235,7 +235,8 @@ IastGui::aboutIastPlusPlus()
         "<p>KAIST & Saudi Aramco</p>"
         "<p>Developer: Sangwon Lee</p> "
         "<p>Homepage: <a href=\"http://%1/\">%1</a> "
-    ).arg("sites.google.com/site/iastcpp/");
+        "<p>Homepage: <a href=\"http://%2/\">%2</a> "
+    ).arg("sangwon91.github.io/IASTpp/").arg("sites.google.com/site/iastcpp/");
 
     QMessageBox* msgBox = new QMessageBox (this);
     msgBox->setAttribute(Qt::WA_DeleteOnClose);

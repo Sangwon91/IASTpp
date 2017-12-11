@@ -7,7 +7,7 @@
 #include <QList>
 
 // QCustomPlot
-#include "qcustomplot/qcustomplot.h"
+#include "../qcustomplot/qcustomplot.h"
 
 class PlotterCore : public QWidget
 {

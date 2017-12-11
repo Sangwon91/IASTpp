@@ -16,7 +16,7 @@
 #include "plotter_core.h"
 
 // ExpressionParser
-#include "expression_parser.h"
+#include "../expression_parser.h"
 
 IastPlotterWidget::IastPlotterWidget(QTableWidget *in, QTableWidget *out, QWidget *parent) :
     mInputTable {in},
