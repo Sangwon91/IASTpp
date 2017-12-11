@@ -4,8 +4,8 @@
 #include "iast_gui_exception.h"
 
 // IAST core
-#include "iast/isotherm_factory.hpp"
-#include "iast/isotherm_exception.hpp"
+#include "../iast/isotherm_factory.hpp"
+#include "../iast/isotherm_exception.hpp"
 
 // Qt
 #include <QFileDialog>

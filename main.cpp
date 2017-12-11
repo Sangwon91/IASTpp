@@ -7,8 +7,8 @@
 #include <iostream>
 
 // User-Defined Libraries
-#include "iast_gui.h"
-#include "iast_gui_logger.h"
+#include "gui/iast_gui.h"
+#include "gui/iast_gui_logger.h"
 
 int
 main(int argc, char* argv[])

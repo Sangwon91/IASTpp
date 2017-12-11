@@ -41,8 +41,8 @@ QT_CHARTS_USE_NAMESPACE
 #include <ciso646>
 
 // Iast core modules
-#include "iast/isotherm_factory.hpp"
-#include "iast/isotherm_utility.hpp"
+#include "../iast/isotherm_factory.hpp"
+#include "../iast/isotherm_utility.hpp"
 #include "iast_gui_exception.h"
 
 // Logger

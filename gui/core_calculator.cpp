@@ -11,9 +11,9 @@
 #include <ciso646>
 
 // IAST cores
-#include "iast/iast_core.hpp"
-#include "iast/iast_exception.hpp"
-#include "iast/isotherm_factory.hpp"
+#include "../iast/iast_core.hpp"
+#include "../iast/iast_exception.hpp"
+#include "../iast/isotherm_factory.hpp"
 
 // Logger
 #include "iast_gui_logger.h"

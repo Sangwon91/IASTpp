@@ -6,7 +6,7 @@
 #include <QStackedLayout>
 #include <QListWidget>
 
-#include "iast/isotherm_utility.hpp"
+#include "../iast/isotherm_utility.hpp"
 #include "isotherm_information.h"
 
 class ModelerOptionDialog : public QDialog
