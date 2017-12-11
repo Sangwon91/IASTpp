@@ -153,7 +153,7 @@ IastGui::popSplashScreen()
     {
     auto splash = new QSplashScreen (this, QPixmap (":/images/splash.png"));
 
-    splash->showMessage(tr("Setting up the main window...               "),
+    splash->showMessage(tr("Setting up the main window..."),
                         Qt::AlignRight, Qt::white);
 
     splash->show();
