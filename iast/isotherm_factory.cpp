@@ -3,6 +3,9 @@
 #include <functional>
 #include <regex>
 #include <stdexcept>
+#include <locale>
+#include <codecvt>
+
 #include <ciso646>
 
 #include "isotherm_exception.hpp"
@@ -123,7 +126,8 @@ IsothermFactory::create(const std::string& name, std::vector<Any> args) const
 std::shared_ptr<Isotherm>
 IsothermFactory::create(const std::string& isofile) const
     {
-    std::ifstream ifs {isofile};
+    std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
+    std::ifstream ifs {converter.from_bytes(isofile.c_str())};
 
     if (not ifs.good())
         {

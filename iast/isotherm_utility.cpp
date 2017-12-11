@@ -2,8 +2,11 @@
 
 #include <iostream>
 #include <fstream>
-#include <cmath>
 #include <algorithm>
+#include <locale>
+#include <codecvt>
+
+#include <cmath>
 #include <ciso646>
 
 #include "isotherm_factory.hpp"
@@ -22,10 +25,12 @@ readTwoColumns(const std::string& filename,
                      std::vector<double>& x,
                      std::vector<double>& y)
     {
-    std::ifstream ifs {filename};
+    std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
+    std::ifstream ifs {converter.from_bytes(filename.c_str())};
 
     if (not ifs)
-        throw IsothermException {__FILE__, __LINE__, "Invalid filename"};
+        throw IsothermException
+            {__FILE__, __LINE__, "Invalid filename: " + filename};
 
     readTwoColumns(ifs, x, y);
     }
