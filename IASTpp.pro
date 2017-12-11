@@ -144,7 +144,8 @@ HEADERS  += \
     gui/modeler_option_dialog.h
 
 RESOURCES += \
-    qdarkstyle/style.qrc
+    qdarkstyle/style.qrc  \
+    resources.qrc
 
 RC_ICONS += images/Logo4.ico
 
