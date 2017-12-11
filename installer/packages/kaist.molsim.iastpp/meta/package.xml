@@ -3,8 +3,8 @@
     <RequiresAdminRights>true</RequiresAdminRights>
     <DisplayName>root component</DisplayName>
     <Description>root component of IAST++</Description>
-    <Version>1.0.0</Version>
-    <ReleaseDate>2016-02-23</ReleaseDate>
+    <Version>1.0.1</Version>
+    <ReleaseDate>2017-12-11</ReleaseDate>
     <Licenses>
         <License name="GPL v3 License Agreement" file="license.txt" />
     </Licenses>
