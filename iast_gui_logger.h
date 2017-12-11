@@ -36,7 +36,9 @@ private:
 // Template member functions are defined in header.
 template <typename... Arguments>
 void
-IastGuiLogger::log(const std::string &file, const int &line, const Arguments&... args)
+IastGuiLogger::log(const std::string &file,
+                   const int &line,
+                   const Arguments&... args)
     {
     std::ostream& os = std::clog;
 

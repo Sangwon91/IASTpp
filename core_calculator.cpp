@@ -108,7 +108,8 @@ try {
 
         for (int c = 1; c < cols + 1; ++c)
             {
-            auto str = ("x(" + isoTable->item(c - 1, 1)->text() + ')').toStdString();
+            auto str =
+                ("x(" + isoTable->item(c - 1, 1)->text() + ')').toStdString();
             outputTable->setHorizontalHeaderItem(c,
                 new QTableWidgetItem(str.c_str()));
             }
@@ -120,7 +121,8 @@ try {
 
         for (int c = 1; c < cols + 1; ++c)
             {
-            auto str = ("y(" + isoTable->item(c - 1, 1)->text() + ')').toStdString();
+            auto str =
+                ("y(" + isoTable->item(c - 1, 1)->text() + ')').toStdString();
             outputTable->setHorizontalHeaderItem(c,
                 new QTableWidgetItem(str.c_str()));
             }
@@ -132,7 +134,8 @@ try {
 
         for (int c = 1; c < cols + 1; ++c)
             {
-            auto str = ("y(" + isoTable->item(c - 1, 1)->text() + ')').toStdString();
+            auto str =
+                ("y(" + isoTable->item(c - 1, 1)->text() + ')').toStdString();
             outputTable->setHorizontalHeaderItem(c,
                 new QTableWidgetItem(str.c_str()));
             }

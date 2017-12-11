@@ -80,8 +80,11 @@ CoreInputWidget::makeTable(int row, int extensive, int intensive)
         {
         //auto num = QString::number(i);
         //auto str = (g + num).toStdString();
-        auto str = (g + '(' + mIsothermTable->item(i - 1, 1)->text() + ')').toStdString();
-        mTable->setHorizontalHeaderItem(i, new QTableWidgetItem (tr(str.c_str())));
+        auto str =
+            (g + '(' + mIsothermTable->item(i - 1, 1)->text() + ')')
+            .toStdString();
+        mTable->setHorizontalHeaderItem(
+            i, new QTableWidgetItem (tr(str.c_str())));
         }
 
     emit tableMade();

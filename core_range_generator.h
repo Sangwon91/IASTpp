@@ -24,7 +24,8 @@ private:
     QTableWidget* mData;  // Input table.
     QTableWidget* mTable; // Table in generator which is built at construction.
     QPushButton* mGenerateButton;      // Just append inputs
-    QPushButton* mCleanGenerateButton; // Remove present input table and regenerate that.
+    QPushButton* mCleanGenerateButton; // Remove present input table and
+                                       // regenerate that.
     QPushButton* mCloseButton;         // Close without any actions.
 
     QList<QCheckBox*> mCheckBoxList;
