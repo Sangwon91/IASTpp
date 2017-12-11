@@ -16,6 +16,7 @@ signals:
 
 public slots:
     void gotoHome();
+    void openInBrowser();
 private:
     void setup();
 private:

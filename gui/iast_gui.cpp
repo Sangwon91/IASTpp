@@ -36,7 +36,7 @@
 // Logger
 #include "iast_gui_logger.h"
 
-const QString IastGui::ProgramVersion = "1.0.0";
+const QString IastGui::ProgramVersion = "1.0.1";
 
 IastGui::IastGui(QWidget* parent)
     : QMainWindow(parent)
