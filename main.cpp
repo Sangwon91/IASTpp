@@ -14,7 +14,7 @@ int
 main(int argc, char* argv[])
 try {
     IAST_GUI_LOG("Start Program");
-    IAST_GUI_LOG("argv[0]", argv[0]);
+    IAST_GUI_LOG("argv[0]:", argv[0]);
     QApplication app(argc, argv);
 
     new IastGui;
