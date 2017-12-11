@@ -1,6 +1,7 @@
 *.o
 build*
 *.bat
-installer
+installer/IAST++
+installer/iastpp_*
 examples
-*.user
+*.user*
