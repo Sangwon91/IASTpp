@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>IAST++</Name>
+    <Version>1.0.0</Version>
+    <Title>IAST++ Installer</Title>
+    <ProductUrl>https://sites.google.com/site/iastcpp</ProductUrl>
+    <Publisher>KAIST Molecular Simulation Group</Publisher>
+    <StartMenuDir>IAST++</StartMenuDir>
+    <TargetDir>@HomeDir@/IAST++</TargetDir>
+    <RunProgram>@TargetDir@/IAST++.exe</RunProgram>
+</Installer>
