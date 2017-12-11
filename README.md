@@ -2,7 +2,7 @@
 
 # IAST++ v1.0.1
 
-### [Download Windows Version Installer](https://github.com/Sangwon91/IASTpp/releases/download/v1.0.0/iastpp_1.0.0_windows_installer.exe)
+### [Download Windows Version Installer](https://github.com/Sangwon91/IASTpp/releases/download/v1.0.1/iastpp_1.0.1_windows_installer.exe)
 
 ## Information
 * [Github](https://github.com/Sangwon91/IASTpp)
