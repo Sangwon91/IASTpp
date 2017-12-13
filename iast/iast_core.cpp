@@ -93,11 +93,9 @@ Iast::modeFixPy(ValueType p, std::vector<ValueType> y)
         for (const auto& e : x)
             {
             if (e < 0.0)
-                return 1e5;
+                sum += 1e5;
             else
                 sum += e;
-
-            sum += e;
             }
 
         return sum - 1.0;
@@ -176,11 +174,9 @@ Iast::modeFixPx(ValueType p, std::vector<ValueType> x)
         for (const auto& e : y)
             {
             if (e < 0.0)
-                return 1e5;
+                sum += 1e5;
             else
                 sum += e;
-
-            sum += e;
             }
 
         return sum - 1.0;
