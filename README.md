@@ -12,3 +12,13 @@
 * Developer: lsw91@kaist.ac.kr
 
 * Please cite [me](https://link.springer.com/article/10.1007%2Fs11814-017-0269-9) if you find it useful!
+
+## Snapshot
+
+* `Modeler` module
+
+![](images/snapshot_modeler.png)
+
+* `IAST` module
+
+![](images/snapshot_iast.png)
