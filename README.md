@@ -9,7 +9,7 @@
 * [Github](https://github.com/Sangwon91/IASTpp)
 * [Video Demo](https://youtu.be/btTVnobOeWo)
 * Company: [Molecular Simulation Group, KAIST](http://molsim.kaist.ac.kr)
-* Developer: lsw91@kaist.ac.kr
+* Developer: lsw91.main@gmail.com
 
 * Please cite [me](https://link.springer.com/article/10.1007%2Fs11814-017-0269-9) if you find it useful!
 
